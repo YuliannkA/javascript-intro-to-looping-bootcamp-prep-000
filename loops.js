@@ -1,4 +1,5 @@
 function forLoop(array) {
+<<<<<<< HEAD
   for ( let i = 0; i < 25; i++) {
     if (i ===1) {
       array.push(`I am 1 strange loop.`)
@@ -25,3 +26,11 @@ function doWhileLoop(array) {
   } while ( array.length > 0 && maybeTrue());
   return array
 }
+=======
+  for ( let i = 0; i < 25; I++) {
+  array.push("I am ${i} strange loop");
+} 
+  return array
+}
+
+>>>>>>> b676e2ef960ec22496d48216a710674ceca54083
